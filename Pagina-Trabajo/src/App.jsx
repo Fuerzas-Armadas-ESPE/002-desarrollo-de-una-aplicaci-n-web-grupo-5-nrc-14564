@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import AboutUs from './components/AboutUs';
-import Navbar from './components/Navbar';
-import Formulario from './components/Formulario';
+import AboutUs from './Components/AboutUs';
+import Formulario from './Components/Formulario';
+import Navbar from './Components/Navbar';
 
 const Home = () => <h2>Home</h2>;
 
