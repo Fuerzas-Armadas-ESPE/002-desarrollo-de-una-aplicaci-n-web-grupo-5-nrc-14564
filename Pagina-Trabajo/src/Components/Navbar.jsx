@@ -25,9 +25,9 @@ const Navbar = () => {
             </div>
             <nav id="nav" className={menuVisble ? 'responsive':''}>
                 <ul>
-                    <li><Link to='/contacto' onClick={seleccionar}>Inicio</Link></li>
-                    <li><Link to='/sobre-nosotros' onClick={seleccionar}>Sobre Mi</Link></li>
-                    <li><Link to='/' onClick={seleccionar}>Habilidades</Link></li>
+                    <li><Link to='/' onClick={seleccionar}>Inicio</Link></li>
+                    <li><Link to='/contacto' onClick={seleccionar}>Contacto</Link></li>
+                    <li><Link to='/sobre-nosotros' onClick={seleccionar}>Sobre Nosotros</Link></li>
                 </ul>
             </nav>
             <div className="nav-responsive" onClick={mostrarOcultarMenu}>

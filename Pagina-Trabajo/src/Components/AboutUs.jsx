@@ -1,5 +1,8 @@
 import React from 'react';
 import '../Styles/AboutUs.css'
+import Footer from './Footer'
+
+
 const AboutUs = () => {
     return (
         <section className="inicio" id="inicio">
@@ -11,6 +14,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </section>
     );
 };
