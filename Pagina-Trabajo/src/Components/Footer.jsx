@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Styles/Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook,faInstagram, faTwitter} from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
@@ -21,9 +22,9 @@ const Footer = () => {
 
                     </p>
                     <div className="icon">
-                        <Link to="/"><FontAwesomeIcon /></Link>
-                        <Link to="/"><FontAwesomeIcon /></Link>
-                        <Link to="/"><FontAwesomeIcon /></Link>
+                        <a href="#"><FontAwesomeIcon icon={faFacebook}/></a>
+                        <a href="#"><FontAwesomeIcon icon={faInstagram}/></a>
+                        <a href="#"><FontAwesomeIcon icon={faTwitter}/></a>
                     </div>
                 </div>
             </div>

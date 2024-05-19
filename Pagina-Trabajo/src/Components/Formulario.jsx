@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import '../Styles/Form.css'
 
 function Formulario() {
