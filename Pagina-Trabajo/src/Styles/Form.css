@@ -1,0 +1,94 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 240px) {
+    .Form {
+        width: 70%;
+    }
+}
+
+@media (min-width: 640px) {
+    .Form {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .Form {
+        width: 40%;
+    }
+}
+
+.Form__input {
+    border-style: hidden;
+    background-color: #242424;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    transition: all 0.25s ease;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    outline: none;
+}
+
+.Form__input:focus {
+    background-color: #3c3c3c;
+    border-bottom: 1px solid #646cff;
+}
+
+.Form__label {
+    font-size: 0.8em;
+    color: #ffffff;
+    margin-bottom: 0.25em;
+    margin-top: 3em;
+}
+
+.Form__button {
+    padding: 0.6em 1.2em;
+    margin-top: 1em;
+}
+
+.section__selector {
+    margin-bottom: 0.25em;
+    margin-top: 3em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section__selector .Form__label {
+    margin-top: 0;
+}
+
+.Form__select {
+    color: #fff;
+    border-style: hidden;
+    background-color: #3c3c3c;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.25s ease;
+    text-align: center;
+}
+
+.Form__text-area {
+    border-style: hidden;
+    background-color: #242424;
+    padding: 0.5em;
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    transition: all 0.25s ease;
+    text-align: center;
+    outline: none;
+    font-family: inherit;
+    resize: vertical;
+}
