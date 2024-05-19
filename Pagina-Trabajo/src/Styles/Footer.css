@@ -12,7 +12,64 @@
 
 .footer .footer-row{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 60px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer .footer-content h2{
+    color: orange;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.footer-content .links{
+    margin-top: 20px;
+}
+
+.footer-content .links li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-content .links li a:hover{
+    color: white;
+}
+
+.footer-content p{
+    margin: 20px 0;
+    color: #bfbfbf;
+    max-width: 300px;
+}
+
+.footer-content .icon{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.footer-content .icon a{
+    font-size: 30px;
+    color: #fff;
+}
+
+.footer-content .icon a:hover{
+    color: #ffa500;
+}
+
+@media(max-width: 768px){
+    .footer{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        transform: none;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .footer .footer-row{
+        padding: 20px;
+        gap: 1rem;
+    }
+
 }
