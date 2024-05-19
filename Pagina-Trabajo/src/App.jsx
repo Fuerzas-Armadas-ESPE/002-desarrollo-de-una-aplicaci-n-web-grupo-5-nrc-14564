@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AboutUs from './Components/AboutUs';
 import Formulario from './Components/Formulario';
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 const Home = () => <h2>Home</h2>;
 
