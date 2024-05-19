@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 import React from 'react';
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
@@ -42,4 +39,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
->>>>>>> c6b1f07770554de8c301e536660db6500c40cfce
