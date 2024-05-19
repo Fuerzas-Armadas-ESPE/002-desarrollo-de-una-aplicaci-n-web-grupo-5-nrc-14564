@@ -14,7 +14,7 @@ function Formulario() {
     const apiKeys = 'NSOxKYhRfkuh7wp_8'
 
     emailjs.sendForm(serviceId, templateId, refForm.current, apiKeys)
-      .then(result => console.log(result.text))
+      .then(result => alert('Mensaje enviado con éxito'))
       .catch(error => console.log(error.text))
   }
 

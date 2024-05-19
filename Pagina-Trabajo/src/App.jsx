@@ -7,12 +7,13 @@ import Footer from './Components/Footer';
 
 const Home = () => <h2>Home</h2>;
 
+
 function App() {
     return (
         <Router>
             <Navbar />
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/Home" element={<Home />} />
                 <Route path="/contacto" element={<Formulario />} />
                 <Route path="/sobre-nosotros" element={<AboutUs />} />
             </Routes>
