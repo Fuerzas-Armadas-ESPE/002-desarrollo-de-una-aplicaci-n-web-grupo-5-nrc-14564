@@ -14,7 +14,7 @@
 .footer .footer-row{
     display: flex;
     justify-content: space-around;
-    padding: 60px;
+    padding: 10px;
 }
 
 .footer .footer-content h2{
